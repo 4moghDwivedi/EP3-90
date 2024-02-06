@@ -21,6 +21,7 @@ This was the crux of the patch. I used the pict slider to visualise my general e
 
 The x and y parameters were used in various places to determine the amount of reverb, cutoff frequency, etc - this was done to simulate distance from the performance on stage.
 
+I regret that I wasn't able to figure out moving diagonally!
 ## STREET AMBIENCE
 
 Looping some street ambience which is additionally mixed with its copy, but with reverb, to simulate how it may sound like from a different area.
