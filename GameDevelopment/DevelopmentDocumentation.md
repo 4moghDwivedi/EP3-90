@@ -21,15 +21,15 @@ This was the crux of the patch. I used the pict slider to visualise my general e
 
 The x and y parameters were used in various places to determine the amount of reverb, cutoff frequency, etc - this was done to simulate distance from the performance on stage.
 
-## Street Ambience
+## STREET AMBIENCE
 
 Looping some street ambience which is additionally mixed with its copy, but with reverb, to simulate how it may sound like from a different area.
 
-## Gamepad Object
+## GAMEPAD OBJECT
 
 Used a counter with a 1 count to ignore the lift mechanism of the button. This is the equivalent of a stripnote object which ignores note-off messsages.
 
-## Stick Control Logic
+## STICK CONTROL LOGIC
 
 This was entertaining to code. The section runs on the principle of a metro object updating an accum object which is being fed by the sticks. 
 
