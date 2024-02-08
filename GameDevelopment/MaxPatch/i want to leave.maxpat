@@ -240,7 +240,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 468.0, 766.857150554656982, 1412.0, 108.0 ],
+					"patching_rect" : [ 461.818165302276611, 795.454517006874084, 1412.0, 108.0 ],
 					"text" : "(PLEASE LOAD THE AUDIO FILE) ",
 					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
@@ -2029,7 +2029,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 537.670497417449951, 689.182043357877205, 107.605715751647949, 23.0 ],
-									"text" : "70. 0. 20. 7216."
+									"text" : "72. 0. 111. 9391."
 								}
 
 							}
@@ -2644,9 +2644,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 256.0, 746.857150554656982, 58.0, 22.0 ],
-					"text" : "loadbang"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 256.0, 730.909064769744873, 70.0, 22.0 ],
+					"text" : "loadmess 4"
 				}
 
 			}
@@ -2655,7 +2655,7 @@
 					"autopopulate" : 1,
 					"depth" : 1,
 					"id" : "obj-23",
-					"items" : [ "AMBPubl_Ueno Ameyoko Market Street Stereo_PSE_TKYAMBST_aUPvo.wav", ",", "gamepaddy.maxpat", ",", "i want to leave.maxpat" ],
+					"items" : [ "4mogh infinite line generator.maxpat", ",", "4moghFM.maxpat", ",", "4moghFM2.maxpat", ",", "4moghFMBass.maxpat", ",", "AMBPubl_Ueno Ameyoko Market Street Stereo_PSE_TKYAMBST_aUPvo.wav", ",", "i want to leave.maxpat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2840,13 +2840,12 @@
 								"box" : 								{
 									"fontsize" : 13.275568079305248,
 									"id" : "obj-259",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 537.670497417449951, 689.182043357877205, 107.605715751647949, 23.0 ],
-									"text" : "26. 0. 102. 7924."
+									"text" : "68. 0. 21. 6774."
 								}
 
 							}
@@ -3184,18 +3183,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2296.0, 510.857150554656982, 77.0, 22.0 ],
 					"text" : "loadmess 64"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 256.0, 774.857150554656982, 24.0, 24.0 ]
 				}
 
 			}
@@ -4445,7 +4432,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 41.101572854973114, 1.0, 0, 0.145, 171.07524186299915, 0.0, 0, -0.545, 294.016024555709805, 0.851380214691162, 0, -0.055, 482.440752228482211, 0.0, 0, -0.555, 482.440752228482211, 0.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 41.101574264215962, 1.0, 0, 0.145, 171.075247728627744, 0.0, 0, -0.545, 294.016034636588756, 0.851380214691162, 0, -0.055, 482.440768769848717, 0.0, 0, -0.555, 482.440768769848717, 0.0, 0, 0.0 ],
 					"classic_curve" : 1,
 					"domain" : 2500.0,
 					"id" : "obj-17",
@@ -4520,7 +4507,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 41.101572854973114, 1.0, 0, 0.0, 639.492160373193087, 0.0, 0, -0.7 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 41.101574264215962, 1.0, 0, 0.0, 639.49218229935525, 0.0, 0, -0.7 ],
 					"classic_curve" : 1,
 					"domain" : 2500.0,
 					"id" : "obj-8",
@@ -4763,13 +4750,6 @@
 					"destination" : [ "obj-33", 0 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -6512,7 +6492,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -7384,15 +7364,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "4moghFM.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Library",
+				"bootpath" : "~/Desktop/EP-390/EP3-90/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "4moghFMBass.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Library",
+				"bootpath" : "~/Desktop/EP-390/EP3-90/GameDevelopment/MaxPatch",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
