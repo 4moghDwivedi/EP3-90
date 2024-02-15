@@ -23,3 +23,6 @@ CIRCLE: change sequence. There are 3 sequences.
 LEFT TRIGGER: change mc.saw articulation.
 
 RIGHT TRIGGER: change navigation speed. similar to a "sprint" button in video games.
+
+## Revision on Feb 14
+RIGHT SHOULDER: enable bass oscillator. The accelerometer will control the timbre.

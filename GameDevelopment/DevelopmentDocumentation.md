@@ -47,3 +47,8 @@ Another sound from my 491. I created two other sequences in addition to the orig
 
 The sound represents the player's suggested emotional state as they experience the concert. The sound is degraded, and delayed haphazardly as the player approaches the concert, but becomes clean and crisp as they leave the concert, implying some kind of emotional relief.
 
+## Revision on Feb 14
+
+Upon receiving feedback in class, here are the additions I made on the 14th of February.
+
+I made use of the accelerometer which controls the timbre of a low frequency bass type sound. Truth be told I am still not totally comfortable with the difference betweeen a gyroscope and accelerometer, but I didn't try to investigate this further after I got some kind of result out of experimenting with the accelerometer.
